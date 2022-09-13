@@ -1,5 +1,5 @@
 setInterval(timeDisp, 1000);
-var myAlarmSong = new Audio("credit.mp3");
+var myAlarmSong = new Audio("alarmsong2.mp3");
 
 // const date (line 7) and alarmTime (line 18)both represent new Date(), which displays the current date.
 
@@ -33,12 +33,12 @@ function setAlarm(){
 
 function myQuestion(){
         alert("Answer this question")
-        var wake = prompt("Are you going to school today?")
-        if(wake == "NO"){
-            alert("keep sleeping")
+        var wake = prompt("What is 10*10?")
+        if(wake == "100"){
             location.reload()
+            alert("Alarm Off")
         }
-        else if(wake =="YES"){
-            alert("WAKE UP!")
+        else if(wake !=="100"){
+            alert("Wrong")
         }
 }
