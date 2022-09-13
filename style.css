@@ -1,0 +1,94 @@
+body{
+    background-color: #333333 !important;
+}
+.text-center{
+    /* background-color: #0c0c0c !important; */
+    background-color: rgb(117, 116, 116);
+    height: 580px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 390px;
+    box-shadow: 6px 7px 7px 4px;
+}
+.text-center{
+    background: rgba(245, 241, 241, 0.06);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(1.9px);
+    -webkit-backdrop-filter: blur(1.9px);
+    border: 1px solid rgba(255, 255, 255, 0.26);
+}
+.alarm{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(41, 2, 2);
+    font-size: 50px;
+    
+}
+span{
+    font-size: 70px;
+}
+.timeshow{
+    font-size: 70px;
+    font-family: 'Times New Roman', Times, serif;
+}
+button{
+    font-family: 'Times New Roman', Times, serif !important;
+}
+input{
+    width: 80px;
+    font-size: 32px !important;
+    background-color: rgb(180, 176, 176);
+    border-radius: 10px;
+    border: 2px solid black !important;
+    font-family: cursive !important;
+}
+::placeholder{
+    /* color: #e8e8e8; */
+    color: black;
+    text-align: center;
+}
+.btn-info{
+    background-color: rgb(1, 26, 35) !important;
+    border: thin solid white !important;
+}
+.btn-info:hover{
+    background-color: rgb(84, 180, 207) !important;
+    color: black !important;
+}
+.btn-danger{
+    background-color: rgb(41, 2, 2) !important;
+    border: thin solid white !important;
+}
+.btn-danger:hover{
+    background-color: rgb(142, 19, 19) !important;
+}
+
+@media screen and (max-width: 450px) {
+    .alarm{
+        font-size: 30px !important;
+    }
+    .timeshow{
+        font-size: 55px;
+    }
+    .text-center{
+        width: 90%;
+    }
+    input{
+        width: 70px;
+        font-size: 25px !important;
+    }
+    .btn-info{
+        width: 44% !important;
+    }
+    .text-center{
+        height: 500px !important;
+    }
+}
+@media screen and (max-width: 360px) {
+    .btn-info, .btn-danger{
+        height: 40px !important;
+        width: 54% !important;
+    }
+}
