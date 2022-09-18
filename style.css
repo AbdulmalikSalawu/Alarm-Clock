@@ -1,31 +1,30 @@
 body{
     /* background-color: #333333 !important; */
-    background-color: #5f5f5f !important;
+    background-color: #505050 !important;
 }
 .text-center{
     /* background-color: #0c0c0c !important; */
-    background-color: rgb(117, 116, 116);
+    background-color: rgb(133, 132, 132);
     height: 580px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    /* border-top-left-radius: 20px; */
+    border-top-right-radius: 45px;
+    border-bottom-left-radius: 45px;
+    /* border-bottom-right-radius: 10px; */
     width: 390px;
-    box-shadow: 6px 7px 7px 4px;
+    box-shadow: 1px 2px 12px 2px;
 }
-.text-center{
+/* .text-center{
     background: rgba(245, 241, 241, 0.06);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(1.9px);
     -webkit-backdrop-filter: blur(1.9px);
-    border: 1px solid rgba(255, 255, 255, 0.26);
-}
+    border: 1px solid rgba(255, 255, 255, 0.26); 
+} */
 .alarm{
     font-family: 'Times New Roman', Times, serif;
     color: rgb(41, 2, 2);
     font-size: 50px;
-    
 }
 span{
     font-size: 70px;
@@ -68,7 +67,7 @@ input{
 
 @media screen and (max-width: 450px) {
     .alarm{
-        font-size: 30px !important;
+        font-size: 23px !important;
     }
     .timeshow{
         font-size: 55px;
