@@ -25,7 +25,7 @@ function setAlarm(){
         disp.style.color = "green"
     }
     else if((hours.value == "")&&(mins.value == "")){
-        disp.innerHTML = "No time set for alarm!"
+        disp.innerHTML = "No time is set for alarm!"
         disp.style.color = "red"
     }
     setInterval("setAlarm()",1000);
