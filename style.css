@@ -1,15 +1,14 @@
 body{
-    /* background-color: #333333 !important; */
-    background-color: #505050 !important;
+    background-color: #8a8888 !important;
+    /* background-color: #242323 !important; */
 }
 .text-center{
-    /* background-color: #0c0c0c !important; */
-    background-color: rgb(133, 132, 132);
+    background-image: url('edited2.jpg');
+    background-color: rgb(128, 128, 128);
     height: 580px;
     /* border-top-left-radius: 20px; */
     border-top-right-radius: 45px;
     border-bottom-left-radius: 45px;
-    /* border-bottom-right-radius: 10px; */
     width: 390px;
     box-shadow: 1px 2px 12px 2px;
 }
